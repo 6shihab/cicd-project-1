@@ -20,7 +20,7 @@ public class StartApplication extends SpringBootServletInitializer {
     @GetMapping("/")
     public String index(final Model model) {
         model.addAttribute("title", "Congratulations All Task successfully Today ");
-        model.addAttribute("msg", "This application is deployed by shihab");
+        model.addAttribute("msg", "This application is deployed by wahid");
         return "index";
     }
 
